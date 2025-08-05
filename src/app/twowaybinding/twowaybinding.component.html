@@ -1,0 +1,11 @@
+    <!-- Two-way binding using ngModel -->
+    <h2>Two-Way Binding Example</h2>
+    <!-- <input [(ngModel)]="name" type="text" placeholder="Enter your name">
+    <h3>Hello, {{ name }}</h3> -->
+
+    <hr>
+
+    <!-- One-way binding using (input) -->
+    <h2>One-Way Binding Example</h2>
+    <input type="text" (input)="changeName($event)" placeholder="Enter your name">
+    <h3>Hello (One-Way), {{ name }}</h3>

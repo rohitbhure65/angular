@@ -1,0 +1,12 @@
+<h1>Get and set value with template reference variable</h1>
+<h2>Email : {{email}}</h2>
+
+<input
+  type="email"
+  [value]="email"
+  placeholder="Enter Your Email"
+  #emailField
+/>
+
+<button (click)="setEmail()">Set Email</button>
+<button (click)="getEmail(emailField.value)">Get Email</button>

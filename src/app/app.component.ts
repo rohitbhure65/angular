@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import { GetandsetComponent } from './getandset/getandset.component';
+import { TemplatereferencevariableComponent } from './templatereferencevariable/templatereferencevariable.component';
+// import { GetandsetComponent } from './getandset/getandset.component';
 
 @Component({
   selector: 'app-root',
   imports: [
-    GetandsetComponent
+    // GetandsetComponent
+    TemplatereferencevariableComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

@@ -1,0 +1,13 @@
+<h1>Get and Set element from input fields</h1>
+
+<h2>User Name is : {{ displayName }}</h2>
+
+<input
+  type="text"
+  (input)="getName($event)"
+  [value]="name"
+  placeholder="Enter User Name"
+/>
+
+<button (click)="showName()">Get value</button>
+<button (click)="setName()">Set value</button>

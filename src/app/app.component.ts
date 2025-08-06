@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { SignalComponent } from './signal/signal.component';
 // import { TemplatereferencevariableComponent } from './templatereferencevariable/templatereferencevariable.component';
 // import { GetandsetComponent } from './getandset/getandset.component';
 // import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
 // import { DynamicstylingngstyleandngclassComponent } from './dynamicstylingngstyleandngclass/dynamicstylingngstyleandngclass.component';
+// import { SignalComponent } from './signal/signal.component';
+import { DatatypeofsignalComponent } from './datatypeofsignal/datatypeofsignal.component';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { SignalComponent } from './signal/signal.component';
     // TemplatereferencevariableComponent,
     // TwowaybindingComponent
     // DynamicstylingngstyleandngclassComponent
-    SignalComponent
+    // SignalComponent
+    DatatypeofsignalComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

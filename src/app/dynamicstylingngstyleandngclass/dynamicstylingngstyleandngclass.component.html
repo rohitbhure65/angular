@@ -1,0 +1,31 @@
+<h2>🔵 String Syntax (ngClass)</h2>
+<div [ngClass]="'box blue-bg'">
+  Static class from string
+</div>
+
+<h2>🟢 Object Syntax (ngClass)</h2>
+<div [ngClass]="{'active': isActive, 'highlight': isHighlighted}">
+  Conditional classes using object syntax
+</div>
+
+<h2>🟡 Array Syntax (ngClass)</h2>
+<div [ngClass]="[hasError ? 'error-box' : 'success-box', 'base-style']">
+  Classes using array syntax
+</div>
+
+<h2>🔵 String Syntax (ngStyle)</h2>
+<div [ngStyle]="{'color': textColor, 'font-size.px': fontSize}">
+  Inline styles using string values
+</div>
+
+<h2>🟢 Object Syntax with Expression (ngStyle)</h2>
+<div [ngStyle]="{'background-color': isError ? 'red' : 'green', 'width': dynamicWidth}">
+  Dynamic background color and width
+</div>
+
+<h2>⚡ Combined ngClass + ngStyle</h2>
+<div
+  [ngClass]="{'error-box': hasError, 'success-box': !hasError}"
+  [ngStyle]="{'font-weight': hasError ? 'bold' : 'normal', 'color': hasError ? 'red' : 'green'}">
+  Combined use of ngClass and ngStyle
+</div>

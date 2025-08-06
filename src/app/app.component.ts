@@ -4,7 +4,8 @@ import { Component, signal } from '@angular/core';
 // import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
 // import { DynamicstylingngstyleandngclassComponent } from './dynamicstylingngstyleandngclass/dynamicstylingngstyleandngclass.component';
 // import { SignalComponent } from './signal/signal.component';
-import { DatatypeofsignalComponent } from './datatypeofsignal/datatypeofsignal.component';
+import { ComputedsignalComponent } from './computedsignal/computedsignal.component';
+// import { DatatypeofsignalComponent } from './datatypeofsignal/datatypeofsignal.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,9 @@ import { DatatypeofsignalComponent } from './datatypeofsignal/datatypeofsignal.c
     // TwowaybindingComponent
     // DynamicstylingngstyleandngclassComponent
     // SignalComponent
-    DatatypeofsignalComponent
+    computedsignal
+    // ComputedsignalComponent
+    // DatatypeofsignalComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
